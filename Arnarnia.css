@@ -1,7 +1,7 @@
-html, body {
+/*html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
+}*/
 
 body{
 	background-color: white;
@@ -242,9 +242,14 @@ div#Navigation li {
 }
 
 
-
-
-
+.classBubblePullOut {
+	height: 56px;
+	width: 1000px;
+	background-color: grey;
+	position: absolute;
+	
+	right: -1000px;
+}
 
 .classBubble {
 	border-radius: 200px;
@@ -257,27 +262,19 @@ div#Navigation li {
 	margin-top: 20px;
 	margin-bottom: 20px;
 
-	-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
+	
 }
 
 
-#Archer{
-	
-    top: 36px;
-    width: 140px;
-    height: 120px;
+.classImage {
+	height: 120px;
     width: 120px;
     left: 40px;
 
 	position: relative;
 	margin: auto;
+
+	
 }
 
 .classBubbleDescription {
@@ -290,6 +287,8 @@ div#Navigation li {
 	margin-top: 90px;
 	font-family: Arial;
 	border: 2px, solid, black;
+
+	
 }
 
 .chevron {
@@ -299,10 +298,26 @@ div#Navigation li {
 	top: 0px;
 	left: 10px;
 
+	
+	cursor: pointer;
+}
+
+img {
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.out {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
@@ -320,18 +335,70 @@ div#Navigation li {
     margin-right: 0px;
 }
 
+
+
+
+#archerChevron {
+	
+}
+
 #archerButton {
 	height: 0;
 	width: 0;
 	position: absolute;
 	border-width: 0;
 	background-color: grey;
+
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
+#archerBubblePullOut {
+	margin-top: 90px;
 
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
 
+#archerBubble {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
 
+#archerImage{
+    top: 36px;
 
+    
+}
+
+#archerBubbleDescription {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
 
 
 

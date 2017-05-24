@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Arnarnia</title>
+		<title>Arnaria | Classes</title>
 		<link rel="stylesheet" type="text/css" href="Arnarnia.css">
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<body>
 		<div class="parallax">
 			<div class="parallaxLayer parallaxLayerDeepDeepBack">
@@ -37,11 +36,16 @@
 				<div class="headBar" id="Classes">
 					<h1>Classes</h1>
 				</div>
-				<div class="classBubbleDescription">
-					<button id="archerButton"><img class="chevron" src="CircledChevronLeft.png"></button> <hr class="classHr"> <p style="padding-left: 50px;"> Archer Type</p>
-				</div>
-				<div class="classBubble">
-					<img id="Archer" src="steve-face.jpg">
+				<div id="ArcherClass">
+					<div class="classBubbleDescription" id="archerBubbleDescription">
+						<button id="archerButton"><img class="chevron" id="archerChevron" src="CircledChevronLeft.png"></button> <hr class="classHr"> <p style="padding-left: 50px;"> Archer Type</p>
+					</div>
+					<div id="archerBubblePullOut" class="classBubblePullOut">
+						
+					</div>
+					<div class="classBubble" id="archerBubble">
+						<img id="archerImage" class="classImage" src="steve-face.jpg">
+					</div>
 				</div>
 				<p id="ip">50.65.148.92</p>
 				<p>Some body text</p>

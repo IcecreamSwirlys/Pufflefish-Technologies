@@ -7,6 +7,13 @@ var HamMid = document.getElementById('MidSandwich');
 var HamBot = document.getElementById('BotSandwich');
 var menuP = document.querySelectorAll("div#Navigation a");
 
+var archerButton = document.getElementById('archerButton');
+var archerBubble = document.getElementById('archerBubble');
+var archerBubblePullOut = document.getElementById('archerBubblePullOut');
+var archerBubbleDescription = document.getElementById('archerBubbleDescription');
+var archerChevron = document.getElementById('archerChevron');
+var archerOut = false;
+
 var naVis = false;
 
 menuButton.addEventListener("click", function(){
@@ -43,3 +50,21 @@ menuButton.addEventListener("click", function(){
 	HamBot.classList.toggle('played');
 })
 
+archerButton.addEventListener("click", function(){
+	if (archerOut === false){
+		archerBubbleDescription.style.right = '1000px';
+		archerBubble.style.right = '980px';
+		archerBubblePullOut.style.right = '0px';
+
+		archerChevron.classList.toggle('out');
+
+		archerOut = true;
+	} else {
+		archerBubbleDescription.style.right = '0px';
+		archerBubble.style.right = '-20px';
+		archerBubblePullOut.style.right = '-1000px';
+		archerOut = false;
+
+		archerChevron.classList.toggle('out');
+	}
+})
