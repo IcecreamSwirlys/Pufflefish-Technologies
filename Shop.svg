@@ -3,16 +3,14 @@
 
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="none"/>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <line fill="none" stroke="#000000" stroke-width="1.5" x1="435.5" y1="275" x2="435.5" y2="351" id="svg_6" stroke-linejoin="null" stroke-linecap="null"/>
-  <rect fill="#845335" stroke-width="1.5" x="-1.5" y="-3" width="585.999984" height="81" id="svg_1" stroke="null"/>
-  <rect fill="#845335" stroke="null" stroke-width="1.5" stroke-opacity="null" x="77.5" y="63" width="40" height="260" id="svg_2"/>
-  <rect fill="#845335" stroke="null" stroke-width="1.5" stroke-opacity="null" x="479.5" y="62" width="40" height="260" id="svg_3"/>
-  <rect fill="#E6C36A" stroke="null" stroke-width="1.5" stroke-opacity="null" x="-5.5" y="299" width="589" height="107" id="svg_4"/>
-  <ellipse fill="#FABA6F" stroke="null" stroke-width="1.5" stroke-opacity="null" cx="436.5" cy="260.5" id="svg_5" rx="22" ry="24.5"/>
-  <text fill="#000000" stroke-width="0" fill-opacity="null" x="194.568824" y="66" id="svg_7" font-size="57" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#000000" font-weight="bold" font-style="italic" transform="rotate(-3 275.56249999999994,46.49999999999951) ">SHOP</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="351" x2="435.5" y1="275" x1="435.5" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <rect stroke="null" id="svg_1" height="81" width="585.999984" y="-3" x="-1.5" stroke-width="1.5" fill="#845335"/>
+  <rect id="svg_4" height="107" width="589" y="299" x="-5.5" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#E6C36A"/>
+  <ellipse ry="24.5" rx="22" id="svg_5" cy="260.5" cx="436.5" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#FABA6F"/>
+  <text transform="rotate(-3 275.56249999999994,46.49999999999951) " font-style="italic" font-weight="bold" stroke="#000000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="57" id="svg_7" y="66" x="194.568824" fill-opacity="null" stroke-width="0" fill="#000000">SHOP</text>
  </g>
 </svg>
