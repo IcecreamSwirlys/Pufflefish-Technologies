@@ -44,6 +44,10 @@
       	border-spacing: 0;
       }
       
+      html, body {
+        height: 100%;
+      }
+      
       /*Fonts*/
       
       @font-face {
@@ -81,7 +85,7 @@
         src: url(Fonts/THEROOTS.TTF);
       }
       
-      /*Roboto*/
+      /*Roboto (https://fonts.google.com/specimen/Roboto)*/
       
       @font-face {
         font-family: Roboto;
@@ -121,6 +125,8 @@
         padding: 0;
         
         overflow-x: hidden;
+        
+        font-family: RobotoLight;
       }
       
       #title {
@@ -139,10 +145,27 @@
         max-width: 100%;
         /*max-height: 95px;*/
         width: auto;
-        height: auto;
+        height: 80%;
       }
       
-      #TextImage1 {
+      #PowerParallax {
+        /* The image used */
+        background-image: url("Images/Power.jpg");
+        
+        opacity: 0.8;
+    
+        /* Full height */
+        height: 100%;
+        width: auto;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .ImageText {
         color: white;
         position: relative;
         
@@ -159,9 +182,53 @@
         background-color: rgba(255, 255, 255, 0.55);
         padding-top: 30px;
         padding-bottom: 30px;
-        margin-top: -30px;
+        margin-top: 70px;
         padding-left: 50px;
         
         font-family: RobotoLight;
         font-size: 20px;
+      }
+      
+      #WorldParallax {
+        /* The image used */
+        background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/842983/619436729/stock-photo--d-rendering-stock-market-online-business-concept-business-graph-619436729.jpg");
+        
+        opacity: 0.8;
+    
+        /* Full height */
+        height: 60%;
+        width: auto;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        /*Other stuff*/
+        margin-top: 70px;
+      }
+      
+      .horizontal-scroll-wrapper {
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: auto;
+        white-space: nowrap;
+        height: 100px;
+        
+        margin-top: 70px;
+      }
+      
+      .horizontal-scroll-wrapper img {
+            display: inline-block;
+            height: 96%;
+            width: auto;
+            margin: 0 20px 0 20px;
+      }
+      
+      #OurPartners {
+        color: purple;
+        font-family: Roboto;
+        padding: 5px;
+        padding-bottom: 10px;
+        background: rgba(255, 255, 255, 0.8);;
       }
