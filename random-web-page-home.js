@@ -1,0 +1,1 @@
+jQuery("#title").fitText(1.6)
